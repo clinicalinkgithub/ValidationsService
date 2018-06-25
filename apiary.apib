@@ -5,10 +5,10 @@ HOST: https://liveapidev2.clinicalink.com/Services
 Welcome to the ClinicalInk API reference. The ClinicalInk API is designed using a REST-based architecture. This documentation lists and describes the individual resources you can used to manipulate objects on the ClinicalInk Platform.  If you are new to these APIs, please review the information in this section.
 
 ## HTTP Response Codes
-The response from Storage API will have an
+The response from ClinicalInk API will have an
 [HTTP status code](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) that will help
 you determine if the request was successful. In case of an error, the HTTP status code
-will help you determine the cause of the error. The status codes used by Storage API are
+will help you determine the cause of the error. The status codes used by ClinicalInk API are
 listed in the below tables.
 
 ### Success responses
@@ -78,7 +78,7 @@ A user must be created for the SureSource system that has Web Services permissio
 
 # Group Validations
 
-## Get Validations By Date/Time Range  [/CIValidationService.svc/getvalidations/{studyid}/{packageid}/{startDate}/{endDate}/{startTime}/{endTime}]
+## Get Validations [/CIValidationService.svc/getvalidations/{studyid}/{packageid}/{startDate}/{endDate}/{startTime}/{endTime}]
 
 ### Get Validations [GET]
 The GetValidations operation will return all validations created within a specified time frame for a particular study.
